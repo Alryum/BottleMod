@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X",
+    "Y"
+  ],
+  "key": {
+    "X": {
+      "item": "bottlemod:rainbow_pitch"
+    },
+    "Y": {
+      "item": "minecraft:rotten_flesh"
+    }
+  },
+  "result": {
+    "item": "bottlemod:resin_meat",
+    "count": 1
+  }
+}
