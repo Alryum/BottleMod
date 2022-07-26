@@ -73,8 +73,6 @@ public class Bottle extends Item {
             }
         }
 
-
-
         MinecraftServer minecraftServer = onContext.getLevel().getServer();
         ResourceKey<Level> destination = onContext.getLevel().dimension() == ModDimensions.BOTTLEDIM_KEY
                 ? Level.OVERWORLD : ModDimensions.BOTTLEDIM_KEY;
@@ -82,10 +80,6 @@ public class Bottle extends Item {
         ServerLevel bottledim_compare = null;
         if (minecraftServer != null) {
             bottledim_compare = minecraftServer.getLevel(ModDimensions.BOTTLEDIM_KEY);
-        }
-        ServerLevel overworld_compare = null;
-        if (minecraftServer != null) {
-            overworld_compare = minecraftServer.getLevel(Level.OVERWORLD);
         }
 
         ServerLevel destinationWorld = null;
@@ -125,7 +119,6 @@ public class Bottle extends Item {
                 }
             }
         }
-
         return super.useOn(onContext);
     }
 }
