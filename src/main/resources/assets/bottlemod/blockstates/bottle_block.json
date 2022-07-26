@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bottlemod:block/bottle_block"
+    }
+  }
+}
