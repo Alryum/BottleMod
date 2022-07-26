@@ -1,13 +1,17 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "group": "X",
-  "ingredients": [
-    {
-      "item": "minecraft:redstone"
-    }
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "X": [
+      {
+        "item": "minecraft:redstone"
+      }
+    ]
+  },
+  "pattern": [
+    "X"
   ],
   "result": {
-    "item": "bottlemode:rainbow_pitch",
-    "count": 1
+    "count": 1,
+    "item": "bottlemod:rainbow_pitch"
   }
 }
