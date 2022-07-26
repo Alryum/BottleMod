@@ -15,4 +15,5 @@ public class ModItems {
     public static final RegistryObject<Item> RAINBOW_PITCH = ITEMS.register("rainbow_pitch", () -> new Item(new Item.Properties().tab(ModCreativeTabs.CREATIVE_MODE_TAB)));
     public static final RegistryObject<Item> BOTTLE = ITEMS.register("bottle", () -> new Bottle(new Item.Properties().stacksTo(1).tab(ModCreativeTabs.CREATIVE_MODE_TAB)));
     public static final RegistryObject<Item> BOTTLE_BLOCK = ITEMS.register("bottle_block", () -> new BlockItem(ModBlocks.BOTTLE_BLOCK.get(), new Item.Properties().tab(ModCreativeTabs.CREATIVE_MODE_TAB)));
+    public static final RegistryObject<Item> RESIN_MEAT = ITEMS.register("resin_meat", () -> new Item(new Item.Properties().tab(ModCreativeTabs.CREATIVE_MODE_TAB).food(ModFoods.RESIN_MEAT)));
 }

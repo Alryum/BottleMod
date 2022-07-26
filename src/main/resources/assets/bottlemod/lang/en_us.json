@@ -1,6 +1,7 @@
 {
   "item.bottlemod.rainbow_pitch": "Rainbow pitch",
   "item.bottlemod.bottle": "Rainbow bottle",
+  "item.bottlemod.resin_meat": "Resin meat",
   "block.bottlemod.bottle_block": "BLOCK_NAME",
   "itemGroup.bottlemod_tab": "Bottle mod"
 }

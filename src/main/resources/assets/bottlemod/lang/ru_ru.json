@@ -1,6 +1,7 @@
 {
   "item.bottlemod.rainbow_pitch": "Радужная смола",
   "item.bottlemod.bottle": "Радужная бутылка",
+  "item.bottlemod.resin_meat": "Резиновое мясо",
   "block.bottlemod.bottle_block": "BLOCK_NAME",
   "itemGroup.bottlemod_tab": "Бутылка мод"
 }
