@@ -3,5 +3,6 @@
   "item.bottlemod.bottle": "Rainbow bottle",
   "item.bottlemod.resin_meat": "Resin meat",
   "block.bottlemod.bottle_block": "Ancient resin",
+  "block.bottlemod.resin_block": "Resin block",
   "itemGroup.bottlemod_tab": "Bottle mod"
 }
