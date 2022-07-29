@@ -1,7 +1,7 @@
 {
   "variants": {
     "": {
-      "model": "bottlemod:block/bottle_block"
+      "model": "bottlemod:block/resin_block"
     }
   }
 }
