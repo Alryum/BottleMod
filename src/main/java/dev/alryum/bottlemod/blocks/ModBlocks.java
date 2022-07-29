@@ -19,5 +19,6 @@ public class ModBlocks {
     public static final RegistryObject<Block> RESIN_BLOCK = BLOCKS.register("resin_block", () -> new Block(BlockBehaviour.Properties
             .of(Material.STONE)
             .strength(1.5F)
+            .requiresCorrectToolForDrops()
     ));
 }
